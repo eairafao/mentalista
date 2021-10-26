@@ -1,0 +1,85 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  min-height: 600px;
+  background: linear-gradient(to top, rgb(151, 151, 151), rgba(0, 0, 0, 0.952));
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  margin-top: 300px;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 16px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 5px 5px;
+  cursor: pointer;
+  background-color: #33bdff;
+  color: white;
+  border: none;
+  border-radius: 9px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #33bdff;
+  color: black;
+  box-shadow: 0 5px 5px #000;
+}
+
+button:active {
+  background-color: #33bdff;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.resultado {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 16px;
+}
+
+#botao:disabled {
+  background-color: gray;
+  opacity: 50%;
+}
+
+#botao-reiniciar:hover {
+  background-color: #e4605e;
+}
